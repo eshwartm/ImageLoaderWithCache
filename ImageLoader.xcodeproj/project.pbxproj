@@ -13,6 +13,8 @@
 		70EB94D72BEA83E900178EDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70EB94D52BEA83E900178EDE /* Main.storyboard */; };
 		70EB94D92BEA83EA00178EDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70EB94D82BEA83EA00178EDE /* Assets.xcassets */; };
 		70EB94DC2BEA83EA00178EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70EB94DA2BEA83EA00178EDE /* LaunchScreen.storyboard */; };
+		70EB94E52BEA88BC00178EDE /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EB94E32BEA88BC00178EDE /* ImageCollectionViewCell.swift */; };
+		70EB94E62BEA88BC00178EDE /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70EB94E42BEA88BC00178EDE /* ImageCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		70EB94D82BEA83EA00178EDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70EB94DB2BEA83EA00178EDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70EB94DD2BEA83EA00178EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70EB94E32BEA88BC00178EDE /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		70EB94E42BEA88BC00178EDE /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				70EB94D12BEA83E900178EDE /* SceneDelegate.swift */,
 				70EB94D32BEA83E900178EDE /* ViewController.swift */,
 				70EB94D52BEA83E900178EDE /* Main.storyboard */,
+				70EB94E32BEA88BC00178EDE /* ImageCollectionViewCell.swift */,
+				70EB94E42BEA88BC00178EDE /* ImageCollectionViewCell.xib */,
 				70EB94D82BEA83EA00178EDE /* Assets.xcassets */,
 				70EB94DA2BEA83EA00178EDE /* LaunchScreen.storyboard */,
 				70EB94DD2BEA83EA00178EDE /* Info.plist */,
@@ -127,6 +133,7 @@
 			files = (
 				70EB94DC2BEA83EA00178EDE /* LaunchScreen.storyboard in Resources */,
 				70EB94D92BEA83EA00178EDE /* Assets.xcassets in Resources */,
+				70EB94E62BEA88BC00178EDE /* ImageCollectionViewCell.xib in Resources */,
 				70EB94D72BEA83E900178EDE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +147,7 @@
 			files = (
 				70EB94D42BEA83E900178EDE /* ViewController.swift in Sources */,
 				70EB94D02BEA83E900178EDE /* AppDelegate.swift in Sources */,
+				70EB94E52BEA88BC00178EDE /* ImageCollectionViewCell.swift in Sources */,
 				70EB94D22BEA83E900178EDE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
