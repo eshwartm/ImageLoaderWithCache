@@ -15,6 +15,10 @@
 		70EB94DC2BEA83EA00178EDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70EB94DA2BEA83EA00178EDE /* LaunchScreen.storyboard */; };
 		70EB94E52BEA88BC00178EDE /* ImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EB94E32BEA88BC00178EDE /* ImageCollectionViewCell.swift */; };
 		70EB94E62BEA88BC00178EDE /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70EB94E42BEA88BC00178EDE /* ImageCollectionViewCell.xib */; };
+		70EB94E82BEA8FD300178EDE /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EB94E72BEA8FD300178EDE /* ImageManager.swift */; };
+		70EB94EA2BEA8FF900178EDE /* DiskCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EB94E92BEA8FF900178EDE /* DiskCacheManager.swift */; };
+		70EB94EC2BEA900B00178EDE /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EB94EB2BEA900B00178EDE /* ImageCache.swift */; };
+		70EB94EE2BEA9C7700178EDE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70EB94ED2BEA9C7700178EDE /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +32,10 @@
 		70EB94DD2BEA83EA00178EDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		70EB94E32BEA88BC00178EDE /* ImageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCollectionViewCell.swift; sourceTree = "<group>"; };
 		70EB94E42BEA88BC00178EDE /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		70EB94E72BEA8FD300178EDE /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		70EB94E92BEA8FF900178EDE /* DiskCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskCacheManager.swift; sourceTree = "<group>"; };
+		70EB94EB2BEA900B00178EDE /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		70EB94ED2BEA9C7700178EDE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				70EB94CF2BEA83E900178EDE /* AppDelegate.swift */,
 				70EB94D12BEA83E900178EDE /* SceneDelegate.swift */,
 				70EB94D32BEA83E900178EDE /* ViewController.swift */,
+				70EB94E72BEA8FD300178EDE /* ImageManager.swift */,
+				70EB94E92BEA8FF900178EDE /* DiskCacheManager.swift */,
+				70EB94EB2BEA900B00178EDE /* ImageCache.swift */,
+				70EB94ED2BEA9C7700178EDE /* NetworkManager.swift */,
 				70EB94D52BEA83E900178EDE /* Main.storyboard */,
 				70EB94E32BEA88BC00178EDE /* ImageCollectionViewCell.swift */,
 				70EB94E42BEA88BC00178EDE /* ImageCollectionViewCell.xib */,
@@ -146,9 +158,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				70EB94D42BEA83E900178EDE /* ViewController.swift in Sources */,
+				70EB94E82BEA8FD300178EDE /* ImageManager.swift in Sources */,
 				70EB94D02BEA83E900178EDE /* AppDelegate.swift in Sources */,
 				70EB94E52BEA88BC00178EDE /* ImageCollectionViewCell.swift in Sources */,
+				70EB94EE2BEA9C7700178EDE /* NetworkManager.swift in Sources */,
 				70EB94D22BEA83E900178EDE /* SceneDelegate.swift in Sources */,
+				70EB94EC2BEA900B00178EDE /* ImageCache.swift in Sources */,
+				70EB94EA2BEA8FF900178EDE /* DiskCacheManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
